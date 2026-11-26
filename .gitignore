@@ -1,0 +1,45 @@
+# 本地学习资料，不随网页代码发布
+/reference/
+/backups/
+/docs/
+/notes/
+/AGENTS.md
+/CLAUDE.md
+/README.md
+
+# 编辑器和操作系统生成的文件
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+
+# 依赖、构建产物和缓存
+node_modules/
+.next/
+out/
+dist/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# 本地配置、密钥和运行数据
+.env
+.env.*
+.ssh/
+id_ed25519
+id_rsa
+credentials.json
+*.pem
+*.key
+*.pfx
+*.p12
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
